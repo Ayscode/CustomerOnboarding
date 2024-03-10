@@ -25,25 +25,25 @@ namespace CustomerOnboarding.Services
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly JwtSettings _jwtSettings;
-        private readonly NotificationService _notify;
         private readonly IRefreshTokenGenerator _refreshTokenGenerator;
         private readonly ILogger<AuthService> logger;
+        private readonly AppSettings _appSettings;
 
 
         public AuthService(ApplicationDbContext context, UserManager<ApplicationUser> userManager,
                                 IOptions<JwtSettings> jwtSettings,
-                                NotificationService notify,
                                 IRefreshTokenGenerator refreshTokenGenerator,
                                 SignInManager<ApplicationUser> signInManager,
-                                ILogger<AuthService> _log)
+                                ILogger<AuthService> _log,
+                                IOptions<AppSettings> appSettings)
         {
             _context = context;
             _userManager = userManager;
             _jwtSettings = jwtSettings.Value;
             _signInManager = signInManager;
-            _notify = notify;
             _refreshTokenGenerator = refreshTokenGenerator;
             logger = _log;
+            _appSettings = appSettings.Value;
         }
 
         public async Task<SendOtpResponse> SendOtp(string phoneNumber)
@@ -73,7 +73,7 @@ namespace CustomerOnboarding.Services
                         return new SendOtpResponse { Message = "OTP already sent!" };
                     }
                 }
-                
+                var OtpLifeSpan = _appSettings.OtpLifespan;
                 // Generate a new OTP
                 var otp = new Random().Next(10000, 99999).ToString();
             
@@ -83,7 +83,7 @@ namespace CustomerOnboarding.Services
                     phoneNumber = phoneNumber,
                     OTP = otp,
                     RequestTime = DateTime.UtcNow,
-                    ExpiryTime = DateTime.UtcNow.AddMinutes(5),
+                    ExpiryTime = DateTime.UtcNow.AddMinutes(OtpLifeSpan),
                     Attempts = 1
                 };
                 _context.MockOTP.Add(mockOTP);
@@ -177,9 +177,6 @@ namespace CustomerOnboarding.Services
             }
             else
             {
-                //send Otp
-                await _notify.SendOtp(user);
-
                 throw new BadRequestException($"Please verify the otp sent to your email: {request.Email}.");
             }
 
@@ -284,6 +281,21 @@ namespace CustomerOnboarding.Services
             {
                 throw new BadRequestException($"{result.Errors}");
             }
+        }
+
+
+        public async Task<IEnumerable<Customer>> GetCustomers()
+        {
+            var customers = await _context.Users.ToListAsync();
+            if (customers != null)
+            {
+                return customers.Select(q => new Customer { Email = q.Email, Firstname = q.FirstName, Lastname = q.LastName, Id = q.Id}) .ToList();
+            }
+            else
+            {
+                return null;
+            }
+
         }
 
         

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnboarding.Api", "CustomerOnboarding\CustomerOnboarding.Api.csproj", "{FB81F999-6FBB-4CC1-BE49-C69691CA558A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnboarding.Api", "CustomerOnboarding.Api\CustomerOnboarding.Api.csproj", "{FB81F999-6FBB-4CC1-BE49-C69691CA558A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnboarding.Data", "CustomerOnboarding.Data\CustomerOnboarding.Data.csproj", "{019CA80F-1DAD-4054-8AB3-49AC3D3589FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnboarding.Domain", "CustomerOnboarding.Domain\CustomerOnboarding.Domain.csproj", "{AB388C05-FF67-4D75-BAB3-F65FF7009E62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnboarding.Services", "CustomerOnboarding.Services\CustomerOnboarding.Services.csproj", "{CBCD0B95-3AFB-46E9-95A4-7C11895555C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOnboarding.UnitTests", "CustomerOnboarding.UnitTests\CustomerOnboarding.UnitTests.csproj", "{A4620ED2-0A33-4AE1-B55F-71663C57A090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CBCD0B95-3AFB-46E9-95A4-7C11895555C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBCD0B95-3AFB-46E9-95A4-7C11895555C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBCD0B95-3AFB-46E9-95A4-7C11895555C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4620ED2-0A33-4AE1-B55F-71663C57A090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4620ED2-0A33-4AE1-B55F-71663C57A090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4620ED2-0A33-4AE1-B55F-71663C57A090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4620ED2-0A33-4AE1-B55F-71663C57A090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

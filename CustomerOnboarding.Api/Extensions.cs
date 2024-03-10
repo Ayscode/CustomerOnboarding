@@ -156,14 +156,14 @@ namespace CustomerOnboarding
             services.AddScoped(typeof(IRefreshTokenGenerator), typeof(RefreshTokenGenerator));
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IEmailSender, EmailService>();
+            // services.AddScoped<IEmailSender, EmailService>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ILgaRepository, LgaRepository>();
             services.AddScoped<IStateRepository, StateRepository>();
             services.AddScoped<IWemaAPIService, WemaAPIService>();
             services.AddScoped<IUtilityService, UtilityService>();
-            services.AddScoped<NotificationService>();
+            // services.AddScoped<NotificationService>();
         }
 
     }

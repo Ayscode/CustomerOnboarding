@@ -12,6 +12,8 @@ namespace CustomerOnboarding.Interfaces
         Task<SendOtpResponse> SendOtp(string phoneNumber);
         Task<RegistrationResponse> Register(RegistrationRequest request);
         Task<RefreshTokenResponse> Authenticate(string email, Claim[] claims);
+        Task<IEnumerable<Customer>> GetCustomers();
+
 
     }
 }

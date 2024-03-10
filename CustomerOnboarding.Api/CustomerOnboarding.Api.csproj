@@ -8,6 +8,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'CustomerOnboarding' " />
   <ItemGroup>
     <!-- <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" /> -->
 
