@@ -1,0 +1,906 @@
+2024-03-10T15:18:57.1189350+01:00  [WRN] Role "aa0d88cf-695d-4dab-b0ce-a0ca28815e13" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:18:57.6204350+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:18:57.6415600+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:18:57.6426610+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:18:57.6433170+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:18:57.6439420+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:19:12.6915730+01:00 0HN211K7IH7SN:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:19:12.555551+01:00","ResponseTime":"2024-03-10T15:19:12.624505+01:00","IsSuccessStatusCode":true} (80d5bce1)
+2024-03-10T15:19:13.0161690+01:00 0HN211K7IH7SN:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:19:12.946638+01:00","ResponseTime":"2024-03-10T15:19:13.015307+01:00","IsSuccessStatusCode":true} (1527aa65)
+2024-03-10T15:19:25.8764930+01:00 0HN211K7IH7SN:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:19:21.710984+01:00","ResponseTime":"2024-03-10T15:19:25.875433+01:00","IsSuccessStatusCode":true} (679047b2)
+2024-03-10T15:19:55.1318820+01:00 0HN211K7IH7SN:00000007 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:19:35.742436+01:00","ResponseTime":"2024-03-10T15:19:55.108884+01:00","IsSuccessStatusCode":true} (9bf4dbf1)
+2024-03-10T15:20:45.7931620+01:00  [WRN] Role "d8c37059-52db-4f33-bd77-7600d76710d1" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:20:46.1877750+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:20:46.2103670+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:20:46.2113770+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:20:46.2123470+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:20:46.2129930+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:21:01.2883470+01:00 0HN211L7TA59F:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:21:01.151862+01:00","ResponseTime":"2024-03-10T15:21:01.217709+01:00","IsSuccessStatusCode":true} (4bc2d0ff)
+2024-03-10T15:21:01.6455470+01:00 0HN211L7TA59F:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:21:01.502071+01:00","ResponseTime":"2024-03-10T15:21:01.644746+01:00","IsSuccessStatusCode":true} (b65b17bb)
+2024-03-10T15:21:10.3294840+01:00 0HN211L7TA59F:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:21:05.925926+01:00","ResponseTime":"2024-03-10T15:21:10.328589+01:00","IsSuccessStatusCode":true} (e2c68d58)
+2024-03-10T15:21:37.2162960+01:00 0HN211L7TA59F:00000007 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:21:16.453939+01:00","ResponseTime":"2024-03-10T15:21:37.21484+01:00","IsSuccessStatusCode":true} (86e92cff)
+2024-03-10T15:22:26.0948500+01:00  [WRN] Role "32661631-246e-40d7-9c0d-6afdc148e896" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:22:26.5735520+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:22:26.5744040+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:22:26.5753880+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:22:26.5761550+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:22:26.5768640+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:24:15.6744120+01:00 0HN211N1PL9KR:00000001 [ERR] .GetBanks ->  System.ArgumentNullException: Value cannot be null. (Parameter 'baseUrl')
+   at RestSharp.Ensure.NotEmptyString(Object value, String name)
+   at RestSharp.RestClient..ctor(String baseUrl, ConfigureRestClient configureRestClient, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization)
+   at CustomerOnboarding.Services.WemaAPIService.GetBanks() in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/WemaAPIService.cs:line 35 (e63675fc)
+2024-03-10T15:24:15.7636200+01:00 0HN211N1PL9KR:00000001 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:24:15.314155+01:00","ResponseTime":"2024-03-10T15:24:15.757763+01:00","IsSuccessStatusCode":true} (408be44e)
+2024-03-10T15:24:17.2686050+01:00 0HN211N1PL9KR:00000003 [ERR] .GetBanks ->  System.ArgumentNullException: Value cannot be null. (Parameter 'baseUrl')
+   at RestSharp.Ensure.NotEmptyString(Object value, String name)
+   at RestSharp.RestClient..ctor(String baseUrl, ConfigureRestClient configureRestClient, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization)
+   at CustomerOnboarding.Services.WemaAPIService.GetBanks() in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/WemaAPIService.cs:line 35 (e63675fc)
+2024-03-10T15:24:17.2710620+01:00 0HN211N1PL9KR:00000003 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:24:17.234245+01:00","ResponseTime":"2024-03-10T15:24:17.269675+01:00","IsSuccessStatusCode":true} (7abfa0a6)
+2024-03-10T15:24:18.3330910+01:00 0HN211N1PL9KR:00000005 [ERR] .GetBanks ->  System.ArgumentNullException: Value cannot be null. (Parameter 'baseUrl')
+   at RestSharp.Ensure.NotEmptyString(Object value, String name)
+   at RestSharp.RestClient..ctor(String baseUrl, ConfigureRestClient configureRestClient, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization)
+   at CustomerOnboarding.Services.WemaAPIService.GetBanks() in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/WemaAPIService.cs:line 35 (e63675fc)
+2024-03-10T15:24:18.3343500+01:00 0HN211N1PL9KR:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:24:18.296027+01:00","ResponseTime":"2024-03-10T15:24:18.333542+01:00","IsSuccessStatusCode":true} (5fd3b3c2)
+2024-03-10T15:24:19.3849910+01:00 0HN211N1PL9KR:00000007 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:24:19.311815+01:00","ResponseTime":"2024-03-10T15:24:19.382415+01:00","IsSuccessStatusCode":true} (cb45779b)
+2024-03-10T15:24:19.6993390+01:00 0HN211N1PL9KR:00000009 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:24:19.538018+01:00","ResponseTime":"2024-03-10T15:24:19.695167+01:00","IsSuccessStatusCode":true} (a8589815)
+2024-03-10T15:24:31.2058300+01:00 0HN211N1PL9KR:0000000B [ERR] .GetBanks ->  System.ArgumentNullException: Value cannot be null. (Parameter 'baseUrl')
+   at RestSharp.Ensure.NotEmptyString(Object value, String name)
+   at RestSharp.RestClient..ctor(String baseUrl, ConfigureRestClient configureRestClient, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization)
+   at CustomerOnboarding.Services.WemaAPIService.GetBanks() in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/WemaAPIService.cs:line 35 (e63675fc)
+2024-03-10T15:24:31.2090310+01:00 0HN211N1PL9KR:0000000B [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:24:31.134719+01:00","ResponseTime":"2024-03-10T15:24:31.207797+01:00","IsSuccessStatusCode":true} (875e5ebd)
+2024-03-10T15:25:48.8496160+01:00  [WRN] Role "3e2008fc-939c-4c48-a3b4-2206cf0dc176" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:25:49.2706480+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:25:49.2713480+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:25:49.2722630+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:25:49.2728990+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:25:49.2735030+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:25:53.8446130+01:00 0HN211NV3RCBR:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:25:53.664372+01:00","ResponseTime":"2024-03-10T15:25:53.767379+01:00","IsSuccessStatusCode":true} (75a395f7)
+2024-03-10T15:25:54.0526080+01:00 0HN211NV3RCBR:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:25:53.974993+01:00","ResponseTime":"2024-03-10T15:25:54.051653+01:00","IsSuccessStatusCode":true} (3391f2fb)
+2024-03-10T15:26:09.9081680+01:00 0HN211NV3RCBR:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:25:57.605633+01:00","ResponseTime":"2024-03-10T15:26:09.88368+01:00","IsSuccessStatusCode":true} (5e514517)
+2024-03-10T15:26:50.4518680+01:00 0HN211NV3RCBR:00000007 [INF] {"Endpoint":"/api/Account/register","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"{\n  \"firstName\": \"Ayo\",\n  \"lastName\": \"Deji\",\n  \"password\": \"Password234?\",\n  \"email\": \"user@example.com\",\n  \"phoneNumber\": \"08111111111\",\n  \"stateOfResidence\": \"Lagos\",\n  \"lga\": \"ikeja\"\n}","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:26:25.385087+01:00","ResponseTime":"2024-03-10T15:26:50.450743+01:00","IsSuccessStatusCode":true} (f058a076)
+2024-03-10T15:27:01.2841040+01:00 0HN211NV3RCBR:00000009 [ERR] An exception occurred while iterating over the results of a query for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method264(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()" (f5c7ac34)
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method264(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-03-10T15:27:01.4474180+01:00 0HN211NV3RCBR:00000009 [INF] {"Endpoint":"/api/Account/register","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"{\n  \"firstName\": \"Ayo\",\n  \"lastName\": \"Deji\",\n  \"password\": \"Password234?\",\n  \"email\": \"user@example.com\",\n  \"phoneNumber\": \"08111111111\",\n  \"stateOfResidence\": \"Lagos\",\n  \"lga\": \"ikeja\"\n}","Response":"","ResponseCode":"500","RequestTime":"2024-03-10T15:26:58.504093+01:00","ResponseTime":"2024-03-10T15:27:01.421854+01:00","IsSuccessStatusCode":false} (e065742a)
+2024-03-10T15:54:47.1730450+01:00  [WRN] Role "8143ff68-5c32-4c8c-8d9d-0cbcd83a1683" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:54:47.5579080+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:54:47.5586710+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:54:47.5596560+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:54:47.5602840+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:54:47.5608600+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:55:00.5276430+01:00 0HN21287L8EP5:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:55:00.328103Z","ResponseTime":"2024-03-10T14:55:00.44146Z","IsSuccessStatusCode":true} (8f351d14)
+2024-03-10T15:55:00.7473200+01:00 0HN21287L8EP5:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:55:00.615313Z","ResponseTime":"2024-03-10T14:55:00.721873Z","IsSuccessStatusCode":true} (8f83a7d8)
+2024-03-10T15:55:10.7891130+01:00 0HN21287L8EP5:00000005 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:55:10.640606Z","ResponseTime":"2024-03-10T14:55:10.765907Z","IsSuccessStatusCode":true} (a74656ab)
+2024-03-10T15:55:11.0052140+01:00 0HN21287L8EP5:00000007 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:55:10.959797Z","ResponseTime":"2024-03-10T14:55:11.003806Z","IsSuccessStatusCode":true} (8af91a5e)
+2024-03-10T15:55:40.5053070+01:00  [WRN] Role "3974b3a9-a273-4330-8e6a-ee82ed0f1d41" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:55:40.8618530+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:55:40.8625620+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:55:40.8634530+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:55:40.8640680+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:55:40.8646110+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:55:52.0880970+01:00 0HN2128N1BG4D:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:55:51.936432Z","ResponseTime":"2024-03-10T14:55:52.005386Z","IsSuccessStatusCode":true} (0ee87bb6)
+2024-03-10T15:55:52.2928510+01:00 0HN2128N1BG4D:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:55:52.148888Z","ResponseTime":"2024-03-10T14:55:52.291872Z","IsSuccessStatusCode":true} (00d6753c)
+2024-03-10T15:56:05.7381390+01:00 0HN2128N1BG4D:00000005 [ERR] Failed executing DbCommand ("37"ms) [Parameters=["@__phoneNumber_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Attempts], [m].[ExpiryTime], [m].[OTP], [m].[RequestTime], [m].[StatusCode], [m].[StatusMessage], [m].[phoneNumber]
+FROM [MockOTP] AS [m]
+WHERE [m].[phoneNumber] = @__phoneNumber_0" (627a98df)
+2024-03-10T15:56:05.7691410+01:00 0HN2128N1BG4D:00000005 [ERR] An exception occurred while iterating over the results of a query for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2846a91b-b6b8-4dac-a782-c8573ef95d23
+Error Number:208,State:1,Class:16" (f5c7ac34)
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+ClientConnectionId:2846a91b-b6b8-4dac-a782-c8573ef95d23
+Error Number:208,State:1,Class:16
+2024-03-10T15:56:14.4650210+01:00 0HN2128N1BG4D:00000005 [INF] Error in SendOTP: Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 53
+ClientConnectionId:2846a91b-b6b8-4dac-a782-c8573ef95d23
+Error Number:208,State:1,Class:16 (49ea39ae)
+2024-03-10T15:56:14.5678860+01:00 0HN2128N1BG4D:00000005 [INF] {"Endpoint":"/api/Account/08179860868/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T14:56:00.195838Z","ResponseTime":"2024-03-10T14:56:14.566953Z","IsSuccessStatusCode":false} (5562da6c)
+2024-03-10T15:58:53.3826740+01:00  [WRN] Role "49bc3aee-57a5-4abf-9426-8708b6c07374" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T15:58:53.7794100+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T15:58:53.7802910+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T15:58:53.7812880+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T15:58:53.7819240+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T15:58:53.7825630+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T15:59:01.2056240+01:00 0HN212AFCF521:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:59:01.020097Z","ResponseTime":"2024-03-10T14:59:01.113405Z","IsSuccessStatusCode":true} (2831839a)
+2024-03-10T15:59:01.4998640+01:00 0HN212AFCF521:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T14:59:01.321011Z","ResponseTime":"2024-03-10T14:59:01.498768Z","IsSuccessStatusCode":true} (c08e7fa9)
+2024-03-10T15:59:16.5257240+01:00 0HN212AFCF521:00000005 [ERR] Failed executing DbCommand ("136"ms) [Parameters=["@__phoneNumber_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Attempts], [m].[ExpiryTime], [m].[OTP], [m].[RequestTime], [m].[StatusCode], [m].[StatusMessage], [m].[phoneNumber]
+FROM [MockOTP] AS [m]
+WHERE [m].[phoneNumber] = @__phoneNumber_0" (627a98df)
+2024-03-10T15:59:16.5616230+01:00 0HN212AFCF521:00000005 [ERR] An exception occurred while iterating over the results of a query for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2cb1a961-7b69-487a-bfd6-da4b230e7374
+Error Number:208,State:1,Class:16" (f5c7ac34)
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+ClientConnectionId:2cb1a961-7b69-487a-bfd6-da4b230e7374
+Error Number:208,State:1,Class:16
+2024-03-10T15:59:16.6253940+01:00 0HN212AFCF521:00000005 [INF] Error in SendOTP: Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 53
+ClientConnectionId:2cb1a961-7b69-487a-bfd6-da4b230e7374
+Error Number:208,State:1,Class:16 (ef25e850)
+2024-03-10T15:59:16.7458900+01:00 0HN212AFCF521:00000005 [INF] {"Endpoint":"/api/Account/08179860868/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T14:59:12.891846Z","ResponseTime":"2024-03-10T14:59:16.745046Z","IsSuccessStatusCode":false} (555cb7e6)
+2024-03-10T16:01:53.3747720+01:00  [WRN] Role "11c92086-87aa-4e18-bc5e-45475fa9aa79" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:01:56.0780780+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:01:56.0790670+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:01:56.0804230+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:01:56.0812110+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:01:56.0819010+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:03:22.1984030+01:00  [WRN] Role "a24b4865-18c5-4004-b9db-410792fae913" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:03:22.2318320+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:03:22.2320010+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:03:22.2320530+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:03:22.2320680+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:04:10.4858720+01:00  [INF] Application is shutting down... (90f52c38)
+2024-03-10T16:08:16.0099480+01:00  [ERR] Failed executing DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""DECLARE @var4 sysname;
+SELECT @var4 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[MockOTP]') AND [c].[name] = N'StatusMessage');
+IF @var4 IS NOT NULL EXEC(N'ALTER TABLE [MockOTP] DROP CONSTRAINT [' + @var4 + '];');
+UPDATE [MockOTP] SET [StatusMessage] = N'' WHERE [StatusMessage] IS NULL;
+ALTER TABLE [MockOTP] ALTER COLUMN [StatusMessage] nvarchar(max) NOT NULL;
+ALTER TABLE [MockOTP] ADD DEFAULT N'' FOR [StatusMessage];" (627a98df)
+2024-03-10T16:08:23.9581130+01:00  [FTL] Application startup exception (6c57a5ba)
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at CustomerOnboarding.Entities.MigrationContext.SeedRoleData(IApplicationBuilder app, UserManager`1 appUser, RoleManager`1 roleManager) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/MigrationContext.cs:line 27
+   at CustomerOnboarding.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, UserManager`1 appUser, RoleManager`1 appRole) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Startup.cs:line 88
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+ClientConnectionId:7feca014-8cba-4345-8a74-fe1714e45bde
+Error Number:208,State:1,Class:16
+2024-03-10T16:08:23.9624630+01:00  [ERR] Hosting failed to start (2bb045e9)
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MockOTP'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at CustomerOnboarding.Entities.MigrationContext.SeedRoleData(IApplicationBuilder app, UserManager`1 appUser, RoleManager`1 roleManager) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/MigrationContext.cs:line 27
+   at CustomerOnboarding.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, UserManager`1 appUser, RoleManager`1 appRole) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Startup.cs:line 88
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+ClientConnectionId:7feca014-8cba-4345-8a74-fe1714e45bde
+Error Number:208,State:1,Class:16
+2024-03-10T16:16:12.8843350+01:00  [WRN] Role "1dc79d6b-ff7b-4ccc-8ce3-7b5b56fe171b" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:16:13.3188310+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:16:13.3195280+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:16:13.3203940+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:16:13.3210110+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:16:13.3215730+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:16:18.1604060+01:00 0HN212K4DI3VD:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:16:17.961456Z","ResponseTime":"2024-03-10T15:16:18.046749Z","IsSuccessStatusCode":true} (d5a79a30)
+2024-03-10T16:16:18.4724640+01:00 0HN212K4DI3VD:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:16:18.388876Z","ResponseTime":"2024-03-10T15:16:18.471248Z","IsSuccessStatusCode":true} (c88a1a05)
+2024-03-10T16:16:35.0238230+01:00 0HN212K4DI3VD:00000005 [ERR] An exception occurred in the database while saving changes for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'StatusCode', table 'CustomerOnboarding_Db.dbo.MockOTP'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73ed7d73-6384-46ae-ad5b-c35889b32227
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'StatusCode', table 'CustomerOnboarding_Db.dbo.MockOTP'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73ed7d73-6384-46ae-ad5b-c35889b32227
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 83
+2024-03-10T16:16:35.1252410+01:00 0HN212K4DI3VD:00000005 [INF] Error in SendOTP: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'StatusCode', table 'CustomerOnboarding_Db.dbo.MockOTP'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73ed7d73-6384-46ae-ad5b-c35889b32227
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 83 (1f973aab)
+2024-03-10T16:16:35.2398720+01:00 0HN212K4DI3VD:00000005 [INF] {"Endpoint":"/api/Account/08179860868/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T15:16:32.0817Z","ResponseTime":"2024-03-10T15:16:35.238859Z","IsSuccessStatusCode":false} (ce430121)
+2024-03-10T16:18:14.2455670+01:00  [WRN] Role "0bbfc2ad-a830-4ae8-9f0b-195c170a9d6f" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:18:14.6193400+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:18:14.6421180+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:18:14.6431870+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:18:14.6438270+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:18:14.6444780+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:18:37.3657240+01:00 0HN212L9B54QV:00000001 [ERR] An exception occurred in the database while saving changes for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'StatusCode', table 'CustomerOnboarding_Db.dbo.MockOTP'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:120f4cb3-ae70-49e8-a055-91ae94733482
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'StatusCode', table 'CustomerOnboarding_Db.dbo.MockOTP'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:120f4cb3-ae70-49e8-a055-91ae94733482
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+2024-03-10T16:20:12.1461880+01:00  [WRN] Role "b2d7a0e7-0744-418b-b211-6962706c8d10" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:20:12.7631170+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:20:12.7639530+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:20:12.7648920+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:20:12.7656050+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:20:12.7662490+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:23:17.8377640+01:00  [WRN] Role "32233378-4662-4fa6-a622-233d0b51514b" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:23:18.2724900+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:23:18.2978920+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:23:18.2989620+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:23:18.2996480+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:23:18.3002770+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:23:45.8910730+01:00 0HN212O3MSC0B:00000001 [INF] {"Endpoint":"/api/Account/08179860868/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:23:25.057209Z","ResponseTime":"2024-03-10T15:23:45.859878Z","IsSuccessStatusCode":true} (2295bea9)
+2024-03-10T16:24:10.0759640+01:00  [WRN] Role "e905efe6-01a1-441a-96a4-31f730ddfde6" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:24:10.4052790+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:24:10.4283200+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:24:10.4538360+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:24:10.4544570+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:24:10.4550840+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:25:00.7141930+01:00  [WRN] Role "d3efb920-cb38-45a2-8151-c1c99c9f4230" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:25:01.1155190+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:25:01.1162220+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:25:01.1172410+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:25:01.1178610+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:25:01.1184340+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:26:54.9136140+01:00  [WRN] Role "e4c5455f-0800-453f-8c0d-1d598caaf248" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:26:55.2313720+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:26:55.2320720+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:26:55.2329160+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:26:55.2335380+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:26:55.2341140+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:27:15.9374110+01:00 0HN212Q457LT7:00000001 [INF] Error in SendOTP: CustomerOnboarding.Exceptions.BadRequestException: OTP already sent!
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 63 (e78c1b54)
+2024-03-10T16:27:16.0987070+01:00 0HN212Q457LT7:00000001 [INF] {"Endpoint":"/api/Account/08179860868/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T15:27:01.299269Z","ResponseTime":"2024-03-10T15:27:16.093571Z","IsSuccessStatusCode":false} (b45d1202)
+2024-03-10T16:27:39.5784690+01:00  [WRN] Role "6a21d92f-026c-4261-9db0-20a6cc4ce586" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:27:40.0433360+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:27:40.0446430+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:27:40.0463480+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:27:40.0699380+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:27:40.0716480+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:28:13.6156890+01:00 0HN212QPHOO2J:00000001 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:28:13.124668Z","ResponseTime":"2024-03-10T15:28:13.600571Z","IsSuccessStatusCode":true} (8dad90a8)
+2024-03-10T16:28:19.6723830+01:00 0HN212QPHOO2J:00000003 [INF] Error in SendOTP: CustomerOnboarding.Exceptions.BadRequestException: OTP already sent!
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 69 (b0b3ad9c)
+2024-03-10T16:28:19.8139280+01:00 0HN212QPHOO2J:00000003 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T15:28:19.248659Z","ResponseTime":"2024-03-10T15:28:19.813064Z","IsSuccessStatusCode":false} (1fd89ab5)
+2024-03-10T16:31:20.6333480+01:00  [WRN] Role "59ede21d-7e10-4ddd-ba34-9e8041ade30a" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:31:21.0275540+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:31:21.0283470+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:31:21.0293950+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:31:21.0301210+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:31:21.0307680+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:31:59.1710240+01:00 0HN212SSQ7H3D:00000001 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:31:58.797059Z","ResponseTime":"2024-03-10T15:31:59.16582Z","IsSuccessStatusCode":true} (fc5ec250)
+2024-03-10T16:32:03.7735560+01:00 0HN212SSQ7H3D:00000003 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:32:03.621784Z","ResponseTime":"2024-03-10T15:32:03.772641Z","IsSuccessStatusCode":true} (100e0e4e)
+2024-03-10T16:32:06.4930330+01:00 0HN212SSQ7H3D:00000005 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:32:06.381233Z","ResponseTime":"2024-03-10T15:32:06.491473Z","IsSuccessStatusCode":true} (753dd694)
+2024-03-10T16:32:07.3215260+01:00 0HN212SSQ7H3D:00000007 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:32:07.226118Z","ResponseTime":"2024-03-10T15:32:07.31873Z","IsSuccessStatusCode":true} (d8fa03a8)
+2024-03-10T16:32:07.7107670+01:00 0HN212SSQ7H3D:00000009 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:32:07.621072Z","ResponseTime":"2024-03-10T15:32:07.709079Z","IsSuccessStatusCode":true} (a0788696)
+2024-03-10T16:32:09.2736500+01:00 0HN212SSQ7H3D:0000000B [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:32:09.180338Z","ResponseTime":"2024-03-10T15:32:09.271548Z","IsSuccessStatusCode":true} (1666bdc8)
+2024-03-10T16:38:39.5905440+01:00  [WRN] Role "1b3248dd-3291-4eaf-8644-dcc85aae9669" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:38:40.0239910+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:38:40.0246750+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:38:40.0255440+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:38:40.0261900+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:38:40.0267770+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:39:02.0395830+01:00 0HN2130QSM74H:00000001 [INF] Error in SendOTP: CustomerOnboarding.Exceptions.BadRequestException: Phone number must be 11 digits long
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 55 (d306a8cb)
+2024-03-10T16:39:02.1769130+01:00 0HN2130QSM74H:00000001 [INF] {"Endpoint":"/api/Account/081798608689/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T15:39:01.829847Z","ResponseTime":"2024-03-10T15:39:02.16787Z","IsSuccessStatusCode":false} (a942d08b)
+2024-03-10T16:39:19.0340610+01:00 0HN2130QSM74H:00000003 [ERR] An exception occurred in the database while saving changes for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:4a5498ef-17e1-442b-afed-4a8947e0de05
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:4a5498ef-17e1-442b-afed-4a8947e0de05
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+2024-03-10T16:39:19.1311180+01:00 0HN2130QSM74H:00000003 [INF] Error occured in the SaveApiLogs ==>  Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:4a5498ef-17e1-442b-afed-4a8947e0de05
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.UtilityService.SaveApiLogs(String userId, String token, Nullable`1 requestTime, Nullable`1 responseTime, String Url, String Response, String Request, String StatusCode, String StatusMessage, String Vendor, String RefId, String longitude, String latititude) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/UtilityService.cs:line 48 (653c06e9)
+2024-03-10T16:39:19.2390550+01:00 0HN2130QSM74H:00000003 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:39:12.932813Z","ResponseTime":"2024-03-10T15:39:19.238166Z","IsSuccessStatusCode":true} (3960e98a)
+2024-03-10T16:41:06.3568400+01:00  [WRN] Role "89bd4964-2c3c-495b-8031-cc505c65e4ad" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:41:06.8331430+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:41:06.8340440+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:41:06.8353070+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:41:06.8363540+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:41:06.8371590+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:41:35.2917590+01:00 0HN213263M9EB:00000001 [ERR] An exception occurred in the database while saving changes for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:72aee35c-283e-4c6b-a4f1-8d1990412721
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:72aee35c-283e-4c6b-a4f1-8d1990412721
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.UtilityService.SaveApiLogs(String userId, String token, Nullable`1 requestTime, Nullable`1 responseTime, String Url, String Response, String Request, String StatusCode, String StatusMessage, String Vendor, String RefId, String longitude, String latititude) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/UtilityService.cs:line 48
+2024-03-10T16:41:35.4187900+01:00 0HN213263M9EB:00000001 [INF] Error occured in the SaveApiLogs ==>  Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:72aee35c-283e-4c6b-a4f1-8d1990412721
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.UtilityService.SaveApiLogs(String userId, String token, Nullable`1 requestTime, Nullable`1 responseTime, String Url, String Response, String Request, String StatusCode, String StatusMessage, String Vendor, String RefId, String longitude, String latititude) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/UtilityService.cs:line 48 (18edcf3e)
+2024-03-10T16:41:35.5453580+01:00 0HN213263M9EB:00000001 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:41:26.844738Z","ResponseTime":"2024-03-10T15:41:35.541035Z","IsSuccessStatusCode":true} (dfbbc726)
+2024-03-10T16:43:26.2754140+01:00  [WRN] Role "f7e08a7a-3d88-4757-a3dc-cad91156123c" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:43:26.6686700+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:43:26.6696010+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:43:26.6706080+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:43:26.6713410+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:43:26.6720130+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:49:46.7912820+01:00  [WRN] Role "d2f4bbe5-6ea0-4aa4-bb21-be5edbda9c4b" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T16:49:47.2008350+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T16:49:47.2016850+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T16:49:47.2025800+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T16:49:47.2032390+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T16:49:47.2038730+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T16:51:31.8639570+01:00 0HN2137QA8433:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:51:31.627237Z","ResponseTime":"2024-03-10T15:51:31.746347Z","IsSuccessStatusCode":true} (58fc0fc6)
+2024-03-10T16:51:32.2591570+01:00 0HN2137QA8433:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:51:32.112442Z","ResponseTime":"2024-03-10T15:51:32.232996Z","IsSuccessStatusCode":true} (868f6d66)
+2024-03-10T16:51:40.5977160+01:00 0HN2137QA8433:00000005 [ERR] An exception occurred in the database while saving changes for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:3e04a14f-e057-4f10-9998-45d221f4d889
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:3e04a14f-e057-4f10-9998-45d221f4d889
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+2024-03-10T16:51:40.7759530+01:00 0HN2137QA8433:00000005 [INF] Error occured in the SaveApiLogs ==>  Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:3e04a14f-e057-4f10-9998-45d221f4d889
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.UtilityService.SaveApiLogs(String userId, String token, Nullable`1 requestTime, Nullable`1 responseTime, String Url, String Response, String Request, String StatusCode, String StatusMessage, String Vendor, String RefId, String longitude, String latititude) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/UtilityService.cs:line 48 (d3648aec)
+2024-03-10T16:51:40.8639860+01:00 0HN2137QA8433:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:51:36.789695Z","ResponseTime":"2024-03-10T15:51:40.862842Z","IsSuccessStatusCode":true} (edd5221c)
+2024-03-10T16:51:43.7782380+01:00 0HN2137QA8433:00000007 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T15:51:43.533693Z","ResponseTime":"2024-03-10T15:51:43.726917Z","IsSuccessStatusCode":true} (66fa638f)
+2024-03-10T17:01:25.5076560+01:00  [WRN] Role "88d522db-5a78-420c-ba81-01824a257f35" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T17:01:26.0282740+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T17:01:26.0290950+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T17:01:26.0300810+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T17:01:26.0307440+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T17:01:26.0313660+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T17:02:54.4450570+01:00  [WRN] Role "ab1db109-c9d7-4b9f-9626-bab9b9a7ff94" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T17:02:54.8169950+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T17:02:54.8176840+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T17:02:54.8186040+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T17:02:54.8192390+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T17:02:54.8198140+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T17:03:19.6960330+01:00 0HN213ED9BPF5:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T16:03:19.472071Z","ResponseTime":"2024-03-10T16:03:19.610575Z","IsSuccessStatusCode":true} (ffbbbac8)
+2024-03-10T17:03:20.0038670+01:00 0HN213ED9BPF5:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T16:03:19.90297Z","ResponseTime":"2024-03-10T16:03:20.002487Z","IsSuccessStatusCode":true} (8a65c6a8)
+2024-03-10T17:03:24.4680240+01:00 0HN213ED9BPF5:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"500","RequestTime":"2024-03-10T16:03:24.365749Z","ResponseTime":"2024-03-10T16:03:24.467117Z","IsSuccessStatusCode":false} (6ad81dbc)
+2024-03-10T17:03:29.7139630+01:00 0HN213ED9BPF5:00000007 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"500","RequestTime":"2024-03-10T16:03:29.6823Z","ResponseTime":"2024-03-10T16:03:29.712Z","IsSuccessStatusCode":false} (6b77bfd1)
+2024-03-10T17:04:07.7841170+01:00  [WRN] Role "88d1df47-8ede-42f8-8ef0-b064e2749d94" validation failed: "DuplicateRoleName". (60d773c7)
+2024-03-10T17:04:08.1576590+01:00  [INF] Now listening on: "https://localhost:7137" (d826f4b8)
+2024-03-10T17:04:08.1792170+01:00  [INF] Now listening on: "http://localhost:5156" (d826f4b8)
+2024-03-10T17:04:08.1802470+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-10T17:04:08.1809100+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-03-10T17:04:08.1815410+01:00  [INF] Content root path: "/Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding" (cc26f24e)
+2024-03-10T17:04:14.4316220+01:00 0HN213ETJAUTD:00000001 [INF] {"Endpoint":"/swagger/index.html","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T16:04:14.210836Z","ResponseTime":"2024-03-10T16:04:14.297682Z","IsSuccessStatusCode":true} (8fd7c28b)
+2024-03-10T17:04:14.7617370+01:00 0HN213ETJAUTD:00000003 [INF] {"Endpoint":"/swagger/v1/swagger.json","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T16:04:14.633167Z","ResponseTime":"2024-03-10T16:04:14.759807Z","IsSuccessStatusCode":true} (ff2afc26)
+2024-03-10T17:04:20.6875240+01:00 0HN213ETJAUTD:00000005 [ERR] An exception occurred in the database while saving changes for context type '"CustomerOnboarding.Entities.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:eb10f170-30c1-4f1e-88bc-3525be4a4af1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:eb10f170-30c1-4f1e-88bc-3525be4a4af1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+2024-03-10T17:04:20.8274200+01:00 0HN213ETJAUTD:00000005 [INF] Error occured in the SaveApiLogs ==>  Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Latitude', table 'CustomerOnboarding_Db.dbo.ApiLogs'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:eb10f170-30c1-4f1e-88bc-3525be4a4af1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CustomerOnboarding.Entities.AuditableDbContext.SaveChangesAsync(String username) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Entities/AuditableDbContext.cs:line 36
+   at CustomerOnboarding.Services.UtilityService.SaveApiLogs(String userId, String token, Nullable`1 requestTime, Nullable`1 responseTime, String Url, String Response, String Request, String StatusCode, String StatusMessage, String Vendor, String RefId, String longitude, String latititude) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/UtilityService.cs:line 48 (1cc0bc18)
+2024-03-10T17:04:20.8847390+01:00 0HN213ETJAUTD:00000005 [INF] {"Endpoint":"/api/Bank/GetBanks","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"GET","RequestBody":"","Response":"","ResponseCode":"200","RequestTime":"2024-03-10T16:04:18.086894Z","ResponseTime":"2024-03-10T16:04:20.883978Z","IsSuccessStatusCode":true} (a6e38bc9)
+2024-03-10T17:04:29.8402880+01:00 0HN213ETJAUTD:00000007 [INF] Error in SendOTP: CustomerOnboarding.Exceptions.BadRequestException: Phone number must be 11 digits long
+   at CustomerOnboarding.Services.AuthService.SendOtp(String phoneNumber) in /Users/ayodejiodufowokan/Desktop/source/personal/CustomerOnboarding/CustomerOnboarding/Services/AuthService.cs:line 55 (d306a8cb)
+2024-03-10T17:04:29.9142930+01:00 0HN213ETJAUTD:00000007 [INF] {"Endpoint":"/api/Account/543/send-otp","Host":"localhost:7137","Schema":"https","QueryString":"","HttpMethod":"POST","RequestBody":"","Response":"","ResponseCode":"400","RequestTime":"2024-03-10T16:04:29.694898Z","ResponseTime":"2024-03-10T16:04:29.913249Z","IsSuccessStatusCode":false} (71d7d415)
