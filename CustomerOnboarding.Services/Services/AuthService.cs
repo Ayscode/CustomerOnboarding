@@ -16,6 +16,7 @@ using CustomerOnboarding.Exceptions;
 using CustomerOnboarding.Interfaces;
 using CustomerOnboarding.Models;
 using CustomerOnboarding.Models.Configurations;
+using Microsoft.Extensions.Logging;
 
 namespace CustomerOnboarding.Services
 {
