@@ -56,6 +56,7 @@ namespace CustomerOnboarding.Controllers
 
         [AllowAnonymous]
         // [Authorize]
+        // [Authorize(RoleNames.Admin)]
         [HttpGet("customers")]
         [Produces(typeof(IEnumerable<Customer>))]
         [ProducesErrorResponseType(typeof(ErrorDetails))]

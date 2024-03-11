@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using CustomerOnboarding.Integrations.WemaTechTest;
+using CustomerOnboarding.Integrations.WemaAPI;
 
 namespace CustomerOnboarding.Interfaces
 {

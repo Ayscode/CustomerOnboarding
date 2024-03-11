@@ -1,6 +1,6 @@
 ﻿using System;
+namespace CustomerOnboarding.Integrations.WemaAPI
 
-namespace CustomerOnboarding.Integrations.WemaTechTest
 {
     public class GetBanksResponse
     {

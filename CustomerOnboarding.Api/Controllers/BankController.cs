@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using CustomerOnboarding.Integrations.WemaTechTest;
 using CustomerOnboarding.Interfaces;
 using CustomerOnboarding.Middleware;
+using CustomerOnboarding.Integrations.WemaAPI;
 
 namespace CustomerOnboarding.Controllers
 {

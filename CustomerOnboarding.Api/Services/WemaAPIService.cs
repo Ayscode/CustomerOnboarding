@@ -4,10 +4,10 @@ using Newtonsoft.Json;
 using RestSharp;
 using System;
 using System.Threading.Tasks;
-using CustomerOnboarding.Integrations.WemaTechTest;
 using CustomerOnboarding.Interfaces;
 using CustomerOnboarding.Models.Configurations;
 using Microsoft.Extensions.Caching.Memory;
+using CustomerOnboarding.Integrations.WemaAPI;
 
 namespace CustomerOnboarding.Services
 {
@@ -63,7 +63,7 @@ namespace CustomerOnboarding.Services
                         {
                             AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
                         };
-                        _cache.Set(cacheKey, result, cacheEntryOptions);
+                        // _cache.Set(cacheKey, result, cacheEntryOptions);
 
 
                         return result;
@@ -92,5 +92,6 @@ namespace CustomerOnboarding.Services
                     hasError = true
                 };
             }
-        }    }
+        }    
+    }
 }
